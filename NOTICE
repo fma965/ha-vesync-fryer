@@ -1,0 +1,6 @@
+This integration is a modified copy of Home Assistant core's `vesync` integration
+(https://github.com/home-assistant/core/tree/2026.10.4/homeassistant/components/vesync),
+licensed under the Apache License 2.0. Changes: dual-basket air fryer sensors, controls
+(buttons, selects, numbers) and polling (fryer.py, button.py, and edits to sensor.py,
+number.py, select.py, coordinator.py, common.py, const.py, __init__.py, manifest.json),
+and a pyvesync pin to https://github.com/fma965/pyvesync.

@@ -1,0 +1,24 @@
+{
+  "domain": "vesync",
+  "name": "VeSync",
+  "codeowners": [
+    "@fma965"
+  ],
+  "config_flow": true,
+  "dhcp": [
+    {
+      "hostname": "levoit-*"
+    }
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/vesync",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/fma965/ha-vesync-fryer/issues",
+  "loggers": [
+    "pyvesync"
+  ],
+  "requirements": [
+    "pyvesync @ git+https://github.com/fma965/pyvesync@dbca03de5f02e1be9f38bc965038b8a88fab0849"
+  ],
+  "version": "2026.10.4.1"
+}
